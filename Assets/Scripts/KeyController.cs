@@ -22,6 +22,7 @@ public class KeyController : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            
             door.GetComponent<DoorController>().isOpen = true;
             gameObject.SetActive(false);
         }
