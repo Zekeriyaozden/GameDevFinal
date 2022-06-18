@@ -28,6 +28,18 @@ public class DoorController : MonoBehaviour
             {
                 Debug.Log("NextLevel");
                 gm.GetComponent<GameManeger>().level = nextLevel;
+                if (nextLevel == 2)
+                {
+                    gm.GetComponent<GameManeger>().Level2();
+                }
+                if (nextLevel == 3)
+                {
+                    gm.GetComponent<GameManeger>().Level3();
+                }
+                if (nextLevel == 4)
+                {
+                    gm.GetComponent<GameManeger>().Level4();
+                }
             }
         }
     }

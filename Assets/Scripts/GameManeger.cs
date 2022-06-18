@@ -27,48 +27,62 @@ public class GameManeger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    private IEnumerator setAnim()
+    {
+        yield return new WaitForSeconds(2f);
+        player.GetComponent<Animator>().SetBool("again",false);
+    }
+
+    public void deadAgain()
+    {
+        player.GetComponent<Animator>().SetBool("isDead",false);
+        player.GetComponent<Animator>().SetBool("again",true);
+        player.GetComponent<PlayerControllers>().isAlive = true;
+        StartCoroutine(setAnim());
+        if (level == 1)
+        {
+            Level1();
+        }
         if (level == 2)
         {
             Level2();
-        }else if (level == 3)
+        }
+        if (level == 3)
         {
-            Level3();;
-        }else if (level == 4)
+            Level3();
+        }
+        if (level == 4)
         {
             Level4();
         }
     }
-
+    public void Level1()
+    {
+        player.transform.position = lvl1;
+        Camera.transform.position = lvl1Camera;
+    }
     public void Level2()
     {
-        if (key == 0)
-        {
+
             player.transform.position = lvl2;
             Camera.transform.position = lvl2Camera;
-        }
+        
 
-        key = 1;
     }
     public void Level3()
     {
-        if (key == 1)
-        {
+
             player.transform.position = lvl3;
             Camera.transform.position = lvl3Camera;
-        }
 
-        key = 2;
     }
     public void Level4()
     {
-        if (key == 2)
-        {
-            player.transform.position = lvl4;
-            Camera.transform.position = lvl4Camera;
-        }
-
-        key = 0;
-
+        player.transform.position = lvl4;
+        Camera.transform.position = lvl4Camera;
     }
     
     

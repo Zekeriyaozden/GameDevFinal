@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public GameObject enemy;
+    public GameObject gm;
     public float speed;
     private float k;
     private bool isGoingFinish;
@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     public Vector3 finish;
     void Start()
     {
+        gm = GameObject.Find("GameManager");
         isGoingFinish = true;
         k = 0;
         start = gameObject.transform.position;
@@ -46,12 +47,19 @@ public class EnemyController : MonoBehaviour
 
     }
 
+    private IEnumerator dead()
+    {
+        yield return new WaitForSeconds(4f);
+        gm.GetComponent<GameManeger>().deadAgain();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
             Debug.Log("Entered");
             other.gameObject.GetComponent<PlayerControllers>().isAlive = false;
+            StartCoroutine(dead());
         }
     }
 }
