@@ -25,7 +25,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="DoorController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="GameManeger.cs" t="Include" />
+          <e p="KeyController.cs" t="Include" />
           <e p="PlayerControllers.cs" t="Include" />
         </e>
         <e p="UnityAsstes" t="Include">

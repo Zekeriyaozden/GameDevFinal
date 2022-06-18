@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,5 +44,14 @@ public class EnemyController : MonoBehaviour
         gameObject.transform.position = Vector3.Lerp(start, finish, k);
 
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            Debug.Log("Entered");
+            other.gameObject.GetComponent<PlayerControllers>().isAlive = false;
+        }
     }
 }
