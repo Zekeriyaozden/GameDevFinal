@@ -21,7 +21,7 @@ public class EasterEgg : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("EasterEgg");
+            player.GetComponent<SpriteRenderer>().color = Color.red;
         }
     }
 }

@@ -21,10 +21,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/KeyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControllers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EasterEggController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EasterEgg.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EasterEgg.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2Ahw0oyNibW0mguNpPR6Skh31t3" />
@@ -70,7 +70,7 @@
       <workItem from="1655474936861" duration="49000" />
       <workItem from="1655510790738" duration="3264000" />
       <workItem from="1655546551353" duration="5901000" />
-      <workItem from="1655556823951" duration="1787000" />
+      <workItem from="1655556823951" duration="3284000" />
     </task>
     <servers />
   </component>
