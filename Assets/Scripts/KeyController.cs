@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class KeyController : MonoBehaviour
 {
+    AudioSource audio;
     public GameObject door;
     void Start()
     {
-        
+            audio=GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -20,8 +21,10 @@ public class KeyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        audio.Play();
         if (other.tag == "Player")
         {
+            
             door.GetComponent<DoorController>().isOpen = true;
             gameObject.SetActive(false);
         }
