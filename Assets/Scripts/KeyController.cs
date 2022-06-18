@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class KeyController : MonoBehaviour
 {
-    AudioSource audio;
+    public AudioSource audio;
     public GameObject door;
     void Start()
     {

@@ -6,6 +6,9 @@
     <e p="C:\Users\Maleriya\Desktop\Pigeon Gaming\GameDevFinal" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Dark_Brown_GUI_kit" t="Include">
+          <e p="Dark_Brown_GUI_kit.txt" t="Include" />
+        </e>
         <e p="Enemy Galore 1 - Pixel Art" t="Include">
           <e p="Read Me.txt" t="Include" />
           <e p="Script" t="Include">
@@ -29,9 +32,11 @@
           <e p="EasterEgg.cs" t="Include" />
           <e p="EasterEggController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="EscapeTheCave.cs" t="Include" />
           <e p="GameManeger.cs" t="Include" />
           <e p="KeyController.cs" t="Include" />
           <e p="PlayerControllers.cs" t="Include" />
+          <e p="PlayGame.cs" t="Include" />
         </e>
         <e p="UnityAsstes" t="Include">
           <e p="readme.txt" t="Include" />

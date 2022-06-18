@@ -11,9 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasterEgg.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerControllers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EscapeTheCave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasterEggController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -25,6 +27,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EasterEgg.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/KeyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayGame.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EscapeTheCave.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2Ahw0oyNibW0mguNpPR6Skh31t3" />
@@ -70,7 +74,7 @@
       <workItem from="1655474936861" duration="49000" />
       <workItem from="1655510790738" duration="3264000" />
       <workItem from="1655546551353" duration="5901000" />
-      <workItem from="1655556823951" duration="4039000" />
+      <workItem from="1655556823951" duration="5348000" />
     </task>
     <servers />
   </component>
